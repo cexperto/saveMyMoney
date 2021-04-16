@@ -18,11 +18,8 @@ const router = async() => {
     menu.innerHTML = await Menu();
 
     let hash = getHash();
-    console.log(hash);
     let route = await resolveRoutes(hash);
-    console.log(route);
     let render = routes[route] ? routes[route] : Error404;
-    console.log(render);
 
     content.innerHTML = await render();
 }
