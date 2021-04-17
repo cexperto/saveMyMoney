@@ -45,18 +45,19 @@
 You can consult the flow diagrams in the folder **diagrams** included with the code.
 
 **Problem:** Users wants to have a record of expenses.
+
 **Problem analysis:**
-* Data: 
- - User name
- - Spent money
- - Where was the money spent
- - Date
+* Data:
+  - User name
+  - Spent money
+  - Where was the money spent
+  - Date
  
 * Application desktop first
 
 * Components to develop:
- - Dashboard: to check a history of expenses by date 1 month limit
- - New Expense: to register a new expense with the **data**
+  - Dashboard: to check a history of expenses by date 1 month limit
+  - New Expense: to register a new expense with the **data**
 
 <hr>
 
