@@ -10,7 +10,9 @@
 <h4 align="center">This is a first desktop app for all the users whose want to have a record of their expenses please check out our application clicking here  <a href="" target="_blank">Save my money</a>.</h4>
 
 <hr>
+
 ### Languages and tools
+
 <p align="center">
 	<a href="https://babeljs.io/" target="_blank"> 
 		<img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> 
@@ -37,6 +39,25 @@
 </p>
 
 <hr>
+
+### Analysis
+
+You can consult the flow diagrams in the folder **diagrams** included with the code.
+
+Problem: Users wants to have a record of expenses
+Problem analysis:
+* Data: 
+- User name
+- Spent money
+- Where was the money spent
+- Date
+* Application desktop first
+* Components to develop
+- Dashboard: to check a history of expenses by date 1 month limit
+- New Expense: to register a new expense with the **data**
+
+
+
 ### Design and Inspiration
 
 We took our inspiration by watching dashboards on the web and applications like pinterest.
@@ -78,8 +99,8 @@ Also we are going to review the responsive design to be sure all the devices hav
 
 This application was developed by:
 
-**Andres Ayala - Backend developer
-Ithzamary Vilchis - Frontend developer**
+**Andres Ayala - Backend developer**
+**Ithzamary Vilchis - Frontend developer**
 
 ## License
 
