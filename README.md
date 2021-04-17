@@ -43,8 +43,8 @@
 ### Analysis
 
 You can consult the flow diagrams in the folder **diagrams** included with the code.
-**Problem:** Users wants to have a record of expenses.
 
+**Problem:** Users wants to have a record of expenses.
 **Problem analysis:**
 * Data: 
  - User name
