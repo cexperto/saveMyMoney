@@ -1,24 +1,28 @@
 const Dashboard = () => {
     const view = `
-        <section class="card-total">
-            <p class="white-text">Montly expenses</p>
-            <p class="total-expenses"></p>
-            <p class="white-text">your last expense was on: <span><span></p>
+        <div class='cards-header'>
+            <p id="title-name-user"><b>Welcome, </b> Ithzamary</p>
+            <section class="card-total">
+                <p class="white-text card-total__text">Montly expenses</p>
+                <p class="card-total__total-expenses">$2,000.00</p>
+                <p class="white-text card-total__footer-text">your last expense was on: <span><span></p>
+            </section>
+            <section class="card-user">
+                <img class="img-user" src="/src/img/profile-w.png"></img>
+                <p class="black-text">User name</p>
+            </section>
+        <div>
+        <section class="search-expense">
+            <p class="text-instructions">Search your expense per date</p>
+            <input class="input-expense" type="date"></input>
+            <button class="button search-expense__button">Buscar</button>
         </section>
-        <section class="card-user">
-            <img class="img-user"></img>
-            <p class="black-text">User name</p>
-        </section>
-
-        <p class="black-text">Search your expense per date</p>
-        <input type="calendar"></input>
-        <button>Buscar</button>
 
         <ul class="list-expenses">
             <li class="item">
-                <p>date: </p>
-                <p>expense: </p>
-                <p>where: </p>
+                <p>date: 16/04/2021</p>
+                <p>expense: $500.00</p>
+                <p>where: Costco</p>
             </li>
         </ul>
     `;
