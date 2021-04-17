@@ -43,19 +43,22 @@
 ### Analysis
 
 You can consult the flow diagrams in the folder **diagrams** included with the code.
+**Problem:** Users wants to have a record of expenses.
 
-Problem: Users wants to have a record of expenses
-Problem analysis:
+**Problem analysis:**
 * Data: 
-- User name
-- Spent money
-- Where was the money spent
-- Date
+ - User name
+ - Spent money
+ - Where was the money spent
+ - Date
+ 
 * Application desktop first
-* Components to develop
-- Dashboard: to check a history of expenses by date 1 month limit
-- New Expense: to register a new expense with the **data**
 
+* Components to develop:
+ - Dashboard: to check a history of expenses by date 1 month limit
+ - New Expense: to register a new expense with the **data**
+
+<hr>
 
 
 ### Design and Inspiration
@@ -90,7 +93,7 @@ $ npm install
 # Run the app
 $ npm start
 ```
-##Next Steps
+## Next Steps
 
 We are going to implement a Login and Create account sections for better user experience.
 Also we are going to review the responsive design to be sure all the devices have an excellent view.
