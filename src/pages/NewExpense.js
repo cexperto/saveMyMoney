@@ -1,14 +1,17 @@
 const NewExpense = () => {
     const view = `
-        <p class="black-text">Welcome <span>User</span></p>
 
-        <p class="black-text">Fill the blanks for register a new expense</p>
+        <p id="title-name-user"><b>Welcome, </b> Ithzamary</p>
 
-        <input type="number" placeholder="money"></input>
-        <input type="text" placeholder="where did you spend"></input>
-        <input type="date" placeholder="date"></input>
+        <section class="content-newexpense">
+            <p class="text-instructions text-instructions--expense">Fill the blanks for register a new expense</p>
 
-        <button>save</button>
+            <input class="input-expense input" type="number" placeholder="money"></input>
+            <input class="input-expense input" type="text" placeholder="where did you spend"></input>
+            <input class="input-expense input" type="date" placeholder="date"></input>
+
+            <button class="button save-expense__button">save</button>
+        </section>
     `;
 
     return view;

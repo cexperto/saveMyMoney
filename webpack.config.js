@@ -36,7 +36,9 @@ module.exports = {
               from: './src/styles/styles.css',
               to: '',
               from: './src/styles/dashboard.css',
-              to: ''
+              to: '',
+              from: './src/styles/expense.css',
+              to:''
             }]
          })
     ]

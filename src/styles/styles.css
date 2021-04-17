@@ -30,6 +30,13 @@ a{
     left: 0px;
 }
 
+#content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
 #img-logo{
     position: absolute;
     width: 68px;
@@ -89,7 +96,14 @@ a{
     border-radius: 15px;
     border: none;
     color: #FFFFFF;
+    cursor: pointer;
+    font-family: Sen;
 }
+
+button:hover{
+    background: #D9D4FE;
+}
+
 .button-logout{
     position: absolute;
     width: 162px;
@@ -99,6 +113,6 @@ a{
     font-size: 29px;
 }
 
-.button-logout:focus{
+.button:focus{
     outline: none;
 }
