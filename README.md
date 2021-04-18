@@ -66,6 +66,8 @@ You can consult the flow diagrams in the folder **diagrams** included with the c
 
 We took our inspiration by watching dashboards on the web and applications like pinterest.
 
+Figma design: https://www.figma.com/file/dcASTW1DA1ZOgT733tss3S/Save-my-money?node-id=0%3A1
+
 [![Dashboard](https://i.ibb.co/cr6H7cd/Dashboard.png "Dashboard")](https://i.ibb.co/cr6H7cd/Dashboard.png "Dashboard")
 
 [![NewExpense](https://i.ibb.co/QD4ZTyP/New-Expense.png "NewExpense")](https://i.ibb.co/QD4ZTyP/New-Expense.png "NewExpense")

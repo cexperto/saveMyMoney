@@ -15,8 +15,11 @@ const Dashboard = () => {
             <div>
             <section class="search-expense">
                 <p class="text-instructions">Search your expense per date</p>
-                <input class="input" type="date"></input>
-                <button class="button search-expense__button">Buscar</button>
+                
+                <label id="alert-search" class="alert" style="display:none">Please select the date before searching</label>
+
+                <input class="input" type="date" id="date-search"></input>
+                <button class="button search-expense__button" onclick="search()">Buscar</button>
             </section>
 
             <ul class="list-expenses">
@@ -28,6 +31,18 @@ const Dashboard = () => {
             </ul>
         </section>
     `;
+
+    window.search=() =>{
+        let dateSearch = document.getElementById('date-search').value;
+        const alertSearch = document.getElementById('alert-search');
+
+        if(dateSearch == null || dateSearch === ''){
+            alertSearch.style.display = 'block';
+        }else{
+            alertSearch.style.display = 'none';
+            console.log(dateSearch);
+        }
+    }
 
     return view;
 }
