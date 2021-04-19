@@ -1,0 +1,33 @@
+data ={
+        'id':'4',
+        'user': 'Santiago',
+        'name':'dinner',
+        'value': '12000'
+        }
+
+data =[{
+        'id':'1',
+        'user': 'Felipe',
+        'name':'lonch',
+        'value': '6000'
+        },
+        {
+        'id':'2',
+        'user': 'Santiago',
+        'name':'dinner',
+        'value': '12000'
+        },
+        {
+        'id':'3',
+        'user': 'Nelcy',
+        'name':'breackfast',
+        'value': '12000'
+    }
+]
+
+
+data ={ 'user' : 'Andres',
+        'place':'restaurant',
+        'date': '17/04/2021',
+        'value': '12000'
+        }

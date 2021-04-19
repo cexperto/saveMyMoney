@@ -1,0 +1,44 @@
+{
+  "rules": {
+    ".read": "now < 1621054800000",  // 2021-5-15
+    ".write": "now < 1621054800000",  // 2021-5-15
+  }
+}
+python-firebase pakage
+pip install git+https://github.com/ozgur/python-firebase
+
+server
+# En Mac y Linux
+python -m SimpleHTTPServer
+#Windows
+python -m http.server
+
+instalar flask
+pip install flask
+
+python -m pip install --user --upgrade pip
+
+pip3 install pyrebase4
+
+
+https://www.youtube.com/watch?v=fJz3JTEtJJA
+https://github.com/hkp27299/API-playlist/blob/master/api.py
+
+
+
+https://www.youtube.com/watch?v=Esdj9wlBOaI
+
+conditions and advanced queries
+https://www.youtube.com/watch?v=rpILsZOM9xA
+
+
+datos a insertar
+
+coleccion con unser generico
+
+date 
+money 
+place 
+
+envias fecha:
+json con los datos
